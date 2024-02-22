@@ -1,0 +1,36 @@
+
+.content{
+    width: 400px ;
+    background-color: lightyellow;
+    border: 3px solid brown;
+    padding-left: 0.5cm;
+    padding-bottom: 0.1cm;
+}
+h1{
+    font-size: 1cm;
+    
+}
+
+.content .image{
+    width: 340px;
+    border-style: inset;
+    border: 5px solid orange;
+    border-top: 5px solid brown;
+    border-left: 5px solid brown;
+}
+
+.content .text{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 1.4cm;
+    border-style: double;
+    border-color: orange;
+    background-color:skyblue;
+}
+
+.text{
+    padding-top: 0.1cm;
+    padding-left: 0.2cm;
+}
