@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Giải phương trình bậc 2</title>
+        <link rel="stylesheet" href="lab2_JS.js">
+    </head>
+    <body>
+        <h1>Giải phương trình bậc 2: Ax^2 + Bx + C = 0</h1>
+        <h1>
+            A = <input type="number" id="A"><span id="notice"></span>
+        </h1>
+        <h1>
+            B = <input type="number" id="B">
+        </h1>
+        <h1>
+            C = <input type="number" id="C">
+        </h1>
+        <button onclick="solve()">Giải phương trình</button>
+        <hr>
+        <br>
+        <h1>Giải</h1>
+        <p>Delta = <b><span id="result"></span></b></p>
+        <p id="delta_detail"></p>
+        <p>x1 = <span id="x1"></span></p>
+        <p>x2 = <span id="x2"></span></p>
+    </body>
+    <script src="ex4.js"></script>
+</html>

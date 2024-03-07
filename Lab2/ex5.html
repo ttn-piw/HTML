@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Validation Excercise</title>
+        <link rel="stylesheet" href="ex5.css">
+    </head>
+    <body id="body">
+    <div id="container">
+    <h1>Personal Information</h1>
+    <table>
+        <tr>
+            <td>Enter name*:</td>
+            <td><input type="text" id="name"></td></td>
+        </tr>
+        <tr>
+            <td>Sex*:</td>
+            <td><input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label></td>
+        </tr>
+        <tr>
+            <td>Enter email address*:</td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td> Enter birthday (MM/DD/YYYY)*:</td>
+            <td> <input type="text" id="birthday"></td>
+
+        </tr>
+        <tr>
+            <td>Enter street address (line 1)*:</td> 
+            <td><input type="text" id="address"></td>
+        </tr>
+        <tr>
+            <td>Enter city*:</td>
+            <td><input type="text" id="city"></td>
+        </tr>
+        <tr>
+            <td>Select a region*:</td>
+            <td><select id="region">
+                <option></option>
+                <option value="as">ASIAN</option>
+                <option value="Am">American</option>
+                <option value="au">Australia</option>
+                <option value="Af">Africa</option>
+                <option value="EU">EU</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Enter 5-digit ZIP code*:</td>
+            <td><input type="text" id="zip"></td>
+        </tr>
+        <tr>
+                <td><button id="finish">Finished</button></td>
+                <td><button id ="clear">Clear</button></td>
+        </tr>
+    </table>
+       
+    </div>
+    </body>
+    <script src="ex5.js"></script>
+</html>
